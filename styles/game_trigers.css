@@ -1,0 +1,42 @@
+.game_trigers {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    border: 1px black solid;
+    
+
+}
+
+.game_trigers>* {
+
+    margin-block-start: 5px;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+    margin-block-end: 5px;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    /* text-align: center ; */
+    /* vertical-align: middle; */
+
+    border: 2px black solid;
+    border-radius: 10px;
+    block-size: 50px;
+
+    inline-size: 10%;
+}
+
+.game_trigers .restart {
+    background-color: red;
+}
+
+.game_trigers .pause {
+    background-color: yellow;
+    inline-size: 80%;
+}
+
+.game_trigers .change_mode {
+    background-color: white;
+}
